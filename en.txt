@@ -1,0 +1,12 @@
+$this.Text	Timer	
+btnAction.Text	Start	
+btnAction.Cancel	Cancel	
+btnAction.Stop	Stop	
+hiddenHint	Double-click to see Timer	
+inputFormat	Please supply time in the right format, e.g. 12:30 or 120	
+lblText.Text	Enter time or minutes for meltdown	
+minute	One minute to meltdown	
+minutes	 minutes to meltdown	
+notStarted	Timer is not started	
+rdoHibernate.Text	Hibernate	
+rdoShutDown.Text	Turn off	

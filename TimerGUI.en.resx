@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rdoShutDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="rdoHibernate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAF52kjZPco6nS2+Q4UtxlPZLcZT2S2+Q4U5xjKlYdIs3AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFp4kX1NdZfzWJWv/4O7zP+i1Nz/ntPc/3m3yf9Niqn/Sm+R9FZy
+        i4IAAAAAAAAAAAAAAAAAAAAAAAAAAF19l3hThqT/lMbU/8rIvf/GnYT/w5B0/8KOcf/CmH7/wcK3/3u7
+        y/9FdZb/WHSLgAAAAAAAAAAAAAAAAGV/mjBUf572oMrW/8u1o//WqIf/7d3N//j08f/48/H/7d3P/9Wl
+        g//Bqpb/gLvM/0pukPdbeIs1AAAAAAAAAABbgp2fdqe+/9jPxP/XqIb//fzp//347P/9+/D//fzw//36
+        7f/9++n/16F4/8nEt/9Wkq//UXCNqgAAAAAAAAAAW4uq3rXR2//PqI7/7tm///315P/48OH/w760/+/r
+        3P/9+ub//fPd/+3Srf/HmXn/kMDO/0xykeIAAAAAAAAAAGSXtPfb6Or/zZ1///jx4P/79Of/8O7h/4uK
+        gv9/fXX/0M3A//356f/46sr/xY5r/7/b3/9Qdpn2AAAAAAAAAABpnrr34urs/8+jiP/49Of/+/bs//39
+        9/9/fnf/r6yi/399df/HxLj/+O7R/8eTcP/H3eD/UXia9gAAAAAAAAAAap+659Hf5P/Zt6L/7+HU//z5
+        8//z8/H/nZyT/+7u5//29vD/vLer/+7YwP/PpYn/p8jR/1B4mN8AAAAAAAAAAHSeuba1zdn/697V/9y7
+        qP/9/f3/7u7s/+Xj2P/9/fX//f31//388f/aspb/38/C/3Giuf9WeJSjAAAAAAAAAACEnbI8ca/J+t3n
+        6v/kzcD/3b2s/+/h2v/x7+r/8u/p/+/g1//auKH/3L+t/7XN1v9VgKH1Y4KXMQAAAAAAAAAAAAAAAIKl
+        vJGVytr/3+ns/+zf1//dvKr/06uU/9KokP/ataH/5tjM/8TX3f9mmbT/YICadQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAg6e+lnW2z/nG1+H/2+Xo/+zv7//q7u7/0N7i/6bC0P9kmLT0aIulfQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACHorlCe6fCvXWvye14tM36d7DK+m6mwOhumbWwdJSqOQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAPgfAADwBwAA4AMAAMADAACAAQAAgAEAAIABAACAAQAAgAEAAIABAADAAwAAwAcAAOAP
+        AAD4HwAA//8AAA==
+</value>
+  </data>
+  <data name="timerNotify.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAF52kjZPco6nS2+Q4UtxlPZLcZT2S2+Q4U5xjKlYdIs3AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFp4kX1NdZfzWJWv/4O7zP+i1Nz/ntPc/3m3yf9Niqn/Sm+R9FZy
+        i4IAAAAAAAAAAAAAAAAAAAAAAAAAAF19l3hThqT/lMbU/8rIvf/GnYT/w5B0/8KOcf/CmH7/wcK3/3u7
+        y/9FdZb/WHSLgAAAAAAAAAAAAAAAAGV/mjBUf572oMrW/8u1o//WqIf/7d3N//j08f/48/H/7d3P/9Wl
+        g//Bqpb/gLvM/0pukPdbeIs1AAAAAAAAAABbgp2fdqe+/9jPxP/XqIb//fzp//347P/9+/D//fzw//36
+        7f/9++n/16F4/8nEt/9Wkq//UXCNqgAAAAAAAAAAW4uq3rXR2//PqI7/7tm///315P/48OH/w760/+/r
+        3P/9+ub//fPd/+3Srf/HmXn/kMDO/0xykeIAAAAAAAAAAGSXtPfb6Or/zZ1///jx4P/79Of/8O7h/4uK
+        gv9/fXX/0M3A//356f/46sr/xY5r/7/b3/9Qdpn2AAAAAAAAAABpnrr34urs/8+jiP/49Of/+/bs//39
+        9/9/fnf/r6yi/399df/HxLj/+O7R/8eTcP/H3eD/UXia9gAAAAAAAAAAap+659Hf5P/Zt6L/7+HU//z5
+        8//z8/H/nZyT/+7u5//29vD/vLer/+7YwP/PpYn/p8jR/1B4mN8AAAAAAAAAAHSeuba1zdn/697V/9y7
+        qP/9/f3/7u7s/+Xj2P/9/fX//f31//388f/aspb/38/C/3Giuf9WeJSjAAAAAAAAAACEnbI8ca/J+t3n
+        6v/kzcD/3b2s/+/h2v/x7+r/8u/p/+/g1//auKH/3L+t/7XN1v9VgKH1Y4KXMQAAAAAAAAAAAAAAAIKl
+        vJGVytr/3+ns/+zf1//dvKr/06uU/9KokP/ataH/5tjM/8TX3f9mmbT/YICadQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAg6e+lnW2z/nG1+H/2+Xo/+zv7//q7u7/0N7i/6bC0P9kmLT0aIulfQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACHorlCe6fCvXWvye14tM36d7DK+m6mwOhumbWwdJSqOQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAPgfAADwBwAA4AMAAMADAACAAQAAgAEAAIABAACAAQAAgAEAAIABAADAAwAAwAcAAOAP
+        AAD4HwAA//8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="btnAction.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnAction.Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="btnAction.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="hiddenHint" xml:space="preserve">
+    <value>Double-click to see Timer</value>
+  </data>
+  <data name="inputFormat" xml:space="preserve">
+    <value>Please supply time in the right format, e.g. 12:30 or 120</value>
+  </data>
+  <data name="lblText.Text" xml:space="preserve">
+    <value>Enter time or minutes for meltdown</value>
+  </data>
+  <data name="minute" xml:space="preserve">
+    <value>One minute to meltdown</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value> minutes to meltdown</value>
+  </data>
+  <data name="notStarted" xml:space="preserve">
+    <value>Timer is not started</value>
+  </data>
+  <data name="rdoHibernate.Text" xml:space="preserve">
+    <value>Hibernate</value>
+  </data>
+  <data name="rdoShutDown.Text" xml:space="preserve">
+    <value>Turn off</value>
+  </data>
+</root>

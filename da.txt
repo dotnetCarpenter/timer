@@ -1,0 +1,12 @@
+$this.Text	Timer	
+btnAction.Text	Start
+btnAction.Cancel	Anullér	
+btnAction.Stop	Stop	
+hiddenHint	Dobbeltklik for at se Timer	
+inputFormat	Tid skrives fx. som 12:30 eller 120	
+lblText.Text	Indtast klokkeslæt eller minutter til nedsmeltning	
+minute	Et minut til nedsmeltning	
+minutes	 minutter til nedsmeltning	
+notStarted	Timer er ikke startet	
+rdoHibernate.Text	Dvale	
+rdoShutDown.Text	Sluk
